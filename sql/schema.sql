@@ -182,3 +182,11 @@ CREATE TABLE `well_pollution` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Create Auditor table before importing the CSV file
+DROP TABLE IF EXISTS `auditor_report`;
+CREATE TABLE `auditor_report` (
+`location_id` VARCHAR(32),
+`type_of_water_source` VARCHAR(64),
+`true_water_source_score` int DEFAULT NULL,
+`statements` VARCHAR(255)
+)
