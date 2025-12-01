@@ -184,3 +184,4 @@ visits
 WHERE time_in_queue != 0
 GROUP BY hour_of_day
 ORDER BY hour_of_day;
+
