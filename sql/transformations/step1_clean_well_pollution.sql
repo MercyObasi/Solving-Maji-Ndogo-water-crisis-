@@ -6,7 +6,7 @@ SELECT
 *
 FROM
 md_water_services.well_pollution
-)
+);
 
 UPDATE
 well_pollution_copy
