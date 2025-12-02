@@ -1,4 +1,4 @@
--- Adding employee email addresses
+-- Adding employee email address
 UPDATE employee
 SET email = CONCAT(LOWER(REPLACE(employee_name, ' ', '.')),
 '@ndogowater.gov');
