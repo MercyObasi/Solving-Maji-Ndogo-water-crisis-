@@ -42,32 +42,32 @@ Calculates the average queue time from visits related to each water source.
 
 4. Basic Water Access Classification
 Rules:
-	-- Rivers are excluded.
-	-- Wells count only if clean.
-	-- Shared taps count only when queue < 30 min.
-	-- Broken taps are excluded.
-	-- Home taps are always at least basic.
+   	- Rivers are excluded.
+	- Wells count only if clean.
+	- Shared taps count only when queue < 30 min.
+	- Broken taps are excluded.
+	- Home taps are always at least basic.
 
-		Basic_water_access =
-		IF(
-		    AND(
-		        water_source[type_of_water_source] = "well",
-		        RELATED(well_pollution[results]) = "clean"
-		    ),
-		    "Basic Access",
-		    IF(
-		        water_source[type_of_water_source] = "tap_in_home",
-		        "Basic Access",
-		        IF(
-		            AND(
-		                water_source[type_of_water_source] = "shared_tap",
-		                water_source[Average_queue_time] < 30
-		            ),
-		            "Basic Access",
-		            "Below Basic Access"
-		        )
-		    )
-		)
+			Basic_water_access =
+			IF(
+			    AND(
+			        water_source[type_of_water_source] = "well",
+			        RELATED(well_pollution[results]) = "clean"
+			    ),
+			    "Basic Access",
+			    IF(
+			        water_source[type_of_water_source] = "tap_in_home",
+			        "Basic Access",
+			        IF(
+			            AND(
+			                water_source[type_of_water_source] = "shared_tap",
+			                water_source[Average_queue_time] < 30
+			            ),
+			            "Basic Access",
+			            "Below Basic Access"
+			        )
+			    )
+			)
 
 
 5. Basic Water Access Level
