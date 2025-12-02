@@ -21,12 +21,12 @@ Rural improvements require more effort, so we add 50% to their cost.
 2.2 Budgeted Improvement Cost
 Uses rural-adjusted cost for rural projects; otherwise uses normal cost.
 
-	Budgeted_improvement_cost =
-	IF(
-	    'project_progress'[town] = "Rural",
-	    RELATED('infrastructure_cost'[Rural_adjusted_cost]),
-	    RELATED('infrastructure_cost'[unit_cost_USD])
-)
+		Budgeted_improvement_cost =
+		IF(
+		    'project_progress'[town] = "Rural",
+		    RELATED('infrastructure_cost'[Rural_adjusted_cost]),
+		    RELATED('infrastructure_cost'[unit_cost_USD])
+		)
 
 3. Average Queue Time per Water Source
 Calculates the average queue time from visits related to each water source.
