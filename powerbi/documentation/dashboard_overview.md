@@ -21,3 +21,11 @@ The proposed budgets and upgrade costs are summarized at the national level, by 
 ## Data Model
 ![Screenshot of data model](../screenshots/Data_model.png)
 
+The data model for the Maji Ndogo project is a multi-star schema. This is because the database doesn’t revolve around a single central fact table. Instead, it contains multiple tables that record different types of events, each supported by its own set of dimensions.
+
+The visits table is the primary fact table. It contains thousands of inspection records collected across different water sources. Each row represents one site visit, with columns that include time spent in queue, assigned employee, the location of the visit, and the water source inspected. Dimension tables linked to the visits table include location, water_source, well_pollution, and queue_composition, with mostly 1-to-many relationships.
+
+The project_progress table gives details on the improvements planned or completed at each water source, including costs, improvement type, and completion dates. It serves as another fact table, linking to the infrastructure_cost and Improvement_Table through 1-to-many relationships. These tables describe events or metrics not tied to visits. Their granularity is different from the visits table.
+
+Overall, because the dataset contains multiple independent processes (inspections, pollution testing, crime records, improvement projects), the model naturally forms a multi-star schema. Each fact table shares some common dimensions, most importantly water_source and location, which act as the central hubs that connect the different stars.
+
