@@ -17,3 +17,6 @@ The proposed budgets and upgrade costs are summarized at the national level, by 
 | Project_progress            | Details the water sources that require improvements, the type of upgrade needed, and the associated unit costs.                                         |
 | Location                    | Contains the geographic information of each visit, linking water sources to their respective areas across Maji Ndogo.                                   |
 | Infrastructure_cost         | Lists the types of infrastructure improvements and their unit costs. Used to calculate project budgets.                                                 |
+
+## Data Model
+![Screenshot of data model](screenshots/data_model.png)
