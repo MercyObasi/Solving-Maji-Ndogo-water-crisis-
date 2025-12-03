@@ -19,4 +19,5 @@ The proposed budgets and upgrade costs are summarized at the national level, by 
 | Infrastructure_cost         | Lists the types of infrastructure improvements and their unit costs. Used to calculate project budgets.                                                 |
 
 ## Data Model
-![Screenshot of data model](screenshots/Data_model.png)
+![Screenshot of data model](../screenshots/Data_model.png)
+
