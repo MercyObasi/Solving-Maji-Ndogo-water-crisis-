@@ -11,7 +11,7 @@ The proposed budgets and upgrade costs are summarized at the national level, by 
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Md_water_services_data.xlsx | Main database containing all tables used in the report.                                                                                             |
 | Well_pollution              | Provides additional details on some water sources, specifically wells. It identifies which wells are polluted and the type of pollution affecting them. |
-| Water_source                | Contains information on each water point visited — including the type of water source and the number of people depending on it in different locations.  |
+| Water_source                | Contains information on each water point visited, including the type of water source and the number of people depending on it in different locations.  |
 | Visits                      | The fact table, capturing thousands of field inspections across Maji Ndogo. Each row represents a visit by a field officer to a water source.       |
 | Queue_composition           | Records what was observed at each location’s queue: the average waiting time and the gender distribution of people queuing.                             |
 | Project_progress            | Details the water sources that require improvements, the type of upgrade needed, and the associated unit costs.                                         |
