@@ -1,9 +1,19 @@
+# Maji Ndogo Water Services Dashboard Overview
+
 ## Project Overview
 
-This dashboard tells a hopeful story for the people of Maji Ndogo. Using data gathered from field surveys, it shows where water is flowing, where it has stopped, and what needs to be done to restore access.
-It breaks down the survey findings so anyone can quickly understand the state of water access across the country, as well as within each province. Because most residents live in either rural or urban communities, the dashboard also separates their results, making it easier to see the unique challenges each group faces.
-It highlights how many people are struggling with limited or unreliable water supply and groups these challenges into clear categories. Just as importantly, it shows the estimated cost required to fix these issues and identifies where funds need to be directed.
-The proposed budgets and upgrade costs are summarized at the national level, by province, and across rural and urban areas, giving a full picture of what it will take to improve water access in Maji Ndogo.
+This dashboard serves as the central monitoring tool for water access initiatives in Maji Ndogo. Using data gathered from field surveys, it highlights where water is available, where issues exist, and the actions required for improvement.
+
+The primary objectives are:
+1.  **Monitor water access KPIs** at national, provincial, and rural/urban levels.
+2.  **Identify locations** requiring immediate infrastructure upgrades.
+3.  **Estimate required budgets** and track project progress effectively.
+
+Users are encouraged to use the main dashboard page for a high-level summary and utilize the navigation buttons to drill down into specific provinces or analysis views.
+
+**➡️ For detailed metric definitions, please refer to the [KPI Definitions document](./KPI_definitions.md).**
+**➡️ For help using the visuals, please see the [Visuals Explained document](./visuals_explained.md).**
+
 
 ## Dataset used
 
