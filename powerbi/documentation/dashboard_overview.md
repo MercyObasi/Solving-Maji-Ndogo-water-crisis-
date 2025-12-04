@@ -33,7 +33,6 @@ All data used in this dashboard is fictional, provided by **Explore AI academy**
 
 The data is designed to mimic a real-world scenario of a water crisis to demonstrate data cleaning, modeling, analysis, and visualization skills. The findings and recommendations are based purely on this simulated dataset.
 
-A comprehensive explanation of data lineage, refresh schedules, and data quality issues can be found in the [Data Sources and Refresh document](./data_sources_and_refresh.md).
 
 
 ## Dataset used
@@ -62,7 +61,7 @@ The project_progress table gives details on the improvements planned or complete
 
 Overall, because the dataset contains multiple independent processes (inspections, pollution testing, crime records, improvement projects), the model naturally forms a multi-star schema. Each fact table shares some common dimensions, most importantly water_source and location, which act as the central hubs that connect the different stars.
 
-**For specifics on DAX measures and relationship cardinality, please consult the [DAX measures](../measures/DAX_measures.md) and [Data Sources and Refresh document](./data_sources_and_refresh.md).**
+**For specifics on DAX measures and relationship cardinality, please consult the [DAX measures](../measures/DAX_measures.md).
 
 ## Insights and Interpretation
 This section summarizes the high-level findings and conclusions drawn from the dashboard:
