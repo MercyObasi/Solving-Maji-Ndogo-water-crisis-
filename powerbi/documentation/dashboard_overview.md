@@ -2,8 +2,13 @@
 
 ## Project Overview
 
-This dashboard serves as the central monitoring tool for water access initiatives in Maji Ndogo. Using data gathered from field surveys, it highlights where water is available, where issues exist, and the actions required for improvement.
+This dashboard is a strategic monitoring tool commissioned to address the critical water access crisis within the fictional nation of Maji Ndogo. The data, though simulated for this ALX project, reflects realistic challenges faced by developing nations.
 
+**Intended Audience & Use Cases:**
+
+*   **The President/Provincial Leaders:** The high-level overview provides immediate KPIs on national water access percentage, budget variance, and overall project status for strategic decision-making.
+*   **Field Engineers:** The detailed report pages (linked via navigation) offer granular data on specific well pollution types, infrastructure requirements, and location-specific visit details to guide field operations and resource allocation.
+  
 The primary objectives are:
 1.  **Monitor water access KPIs** at national, provincial, and rural/urban levels.
 2.  **Identify locations** requiring immediate infrastructure upgrades.
@@ -13,6 +18,14 @@ Users are encouraged to use the main dashboard page for a high-level summary and
 
 **For detailed metric definitions, please refer to the [KPI Definitions document](./KPI_definitions.md).**
 **For help using the visuals, please see the [Visuals Explained document](./visuals_explained.md).**
+
+## Data Source and Project Scope
+
+All data used in this dashboard is fictional, provided by the **ALX Data Analytics program** as part of a capstone project simulation. The country of Maji Ndogo is a non-existent entity.
+
+The data is designed to mimic a real-world scenario of a water crisis to demonstrate data cleaning, modeling, analysis, and visualization skills. The findings and recommendations are based purely on this simulated dataset.
+
+A comprehensive explanation of data lineage, refresh schedules, and data quality issues can be found in the [Data Sources and Refresh document](./data_sources_and_refresh.md).
 
 
 ## Dataset used
