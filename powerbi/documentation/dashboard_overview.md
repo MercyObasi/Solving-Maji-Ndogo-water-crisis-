@@ -76,4 +76,4 @@ This section summarizes the high-level findings and conclusions drawn from the d
 * Infrastructure failure is widespread. About 45% of people are affected by non-functional systems (broken pipes, damaged pumps, or faulty reservoirs). Places such as Amina, rural Amanzi, and parts of Akatsi and Hawassa have the highest breakdown rates.
 Repairing these systems can quickly restore water to many people and reduce queue pressure elsewhere effectively solving two problems at once.
 
-* Budget demand varies across provinces. Sokoto accounts for approximately `28%` of the total required budget, followed by Kilimani at `26%`, indicating where the heaviest investment will be needed.
+* Budget demand varies across provinces. Sokoto accounts for approximately `28%` of the total required budget, followed by Kilimani at `27%`, indicating where the heaviest investment will be needed.
