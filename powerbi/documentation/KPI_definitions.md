@@ -2,7 +2,7 @@
 This document provides clear definitions, formulas, and interpretations for every KPI used in the dashboard.  It is intended to help decision-makers understand how each metric was calculated and how it should be used in planning and budgeting.
 
 ## Core Metrics Glossary
----
+
 ## 1. Population Served KPIs
 
 ### **1.1 Total Population Served**
