@@ -11,15 +11,17 @@ The primary objectives are:
 
 Users are encouraged to use the main dashboard page for a high-level summary and utilize the navigation buttons to drill down into specific provinces or analysis views.
 
-**➡️ For detailed metric definitions, please refer to the [KPI Definitions document](./KPI_definitions.md).**
-**➡️ For help using the visuals, please see the [Visuals Explained document](./visuals_explained.md).**
+**For detailed metric definitions, please refer to the [KPI Definitions document](./KPI_definitions.md).**
+**For help using the visuals, please see the [Visuals Explained document](./visuals_explained.md).**
 
 
 ## Dataset used
 
+The data for this dashboard is sourced from the `Md_water_services_data.xlsx`
+
 | Dataset / File Name         | Description                                                                                                                                         |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Md_water_services_data.xlsx | Main database containing all tables used in the report.                                                                                             |
+| [Md_water_services_data.xlsx](../datasets/Md_water_services_data.xlsx) | Main database containing all tables used in the report.                                                                                             |
 | Well_pollution              | Provides additional details on some water sources, specifically wells. It identifies which wells are polluted and the type of pollution affecting them. |
 | Water_source                | Contains information on each water point visited, including the type of water source and the number of people depending on it in different locations.  |
 | Visits                      | The fact table, capturing thousands of field inspections across Maji Ndogo. Each row represents a visit by a field officer to a water source.       |
@@ -39,3 +41,4 @@ The project_progress table gives details on the improvements planned or complete
 
 Overall, because the dataset contains multiple independent processes (inspections, pollution testing, crime records, improvement projects), the model naturally forms a multi-star schema. Each fact table shares some common dimensions, most importantly water_source and location, which act as the central hubs that connect the different stars.
 
+**For specifics on DAX measures and relationship cardinality, please consult the [DAX measures](../measures/DAX_measures.md) and [Data Sources and Refresh document](./data_sources_and_refresh.md).**
