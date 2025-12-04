@@ -13,6 +13,7 @@ This document provides clear definitions, formulas, and interpretations for ever
 **Why It Matters:**  Provides the overall scale of dependency on water sources.
 
 **Dashboard Location:**  Main Dashboard → Total popuation province table
+
 ---
 
 ## 2. Water Access Level KPIs
