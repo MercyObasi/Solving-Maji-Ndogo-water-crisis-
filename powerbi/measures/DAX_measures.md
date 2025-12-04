@@ -1,4 +1,4 @@
-1. Summarized Improvement Categories
+1. Summarized Improvement Categories. <br>
 This column groups and standardizes the improvement actions.
 
 		Aggregated_improvements =
@@ -12,13 +12,13 @@ This column groups and standardizes the improvement actions.
 		    )
 		)
 
-2. Rural Cost Adjustment
+2. Rural Cost Adjustment. <br>
 Rural improvements require more effort, so we add 50% to their cost.
 
 		Rural_adjusted_cost =
 		infrastructure_cost[unit_cost_USD] * 1.5
 
-2.2 Budgeted Improvement Cost
+2.2 Budgeted Improvement Cost. <br>
 Uses rural-adjusted cost for rural projects; otherwise uses normal cost.
 
 		Budgeted_improvement_cost =
@@ -28,7 +28,7 @@ Uses rural-adjusted cost for rural projects; otherwise uses normal cost.
 		    RELATED('infrastructure_cost'[unit_cost_USD])
 		)
 
-3. Average Queue Time per Water Source
+3. Average Queue Time per Water Source. <br>
 Calculates the average queue time from visits related to each water source.
 
 		Average_queue_time =
@@ -40,7 +40,7 @@ Calculates the average queue time from visits related to each water source.
 		    )
 		)
 
-4. Basic Water Access Classification
+4. Basic Water Access Classification. <br>
 Rules:
    	- Rivers are excluded.
 	- Wells count only if clean.
@@ -70,7 +70,7 @@ Rules:
 			)
 
 
-5. Basic Water Access Level
+5. Basic Water Access Level. <br>
 Percentage of people served by sources classified as "Basic Access."
 
 		Basic_water_access_level =
@@ -85,7 +85,7 @@ Percentage of people served by sources classified as "Basic Access."
 		)
 
 
-6. Below-Basic Water Access Level
+6. Below-Basic Water Access Level. <br>
 Percentage of people without basic access.
 
 		Below_basic_access_level =
