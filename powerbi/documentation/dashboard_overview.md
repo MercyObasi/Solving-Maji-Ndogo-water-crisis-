@@ -29,7 +29,7 @@ Users are encouraged to use the main dashboard page for a high-level summary and
 
 ## Data Source and Project Scope
 
-All data used in this dashboard is fictional, provided by the **ALX Data Analytics program** as part of a capstone project simulation. The country of Maji Ndogo is a non-existent entity.
+All data used in this dashboard is fictional, provided by **Explore AI academy** on the **ALX Data Analytics program** as part of a capstone project simulation. The country of Maji Ndogo is a non-existent entity.
 
 The data is designed to mimic a real-world scenario of a water crisis to demonstrate data cleaning, modeling, analysis, and visualization skills. The findings and recommendations are based purely on this simulated dataset.
 
