@@ -1,5 +1,13 @@
 # Maji Ndogo Water Services Dashboard Overview
 
+| **Field**         | **Detail**                                                               |
+|-------------------|---------------------------------------------------------------------------|
+| Project Sponsor   | The President's Office, Maji Ndogo (Fictional)                           |
+| Developed By      | Mercy Obasi as part of the ALX Data Analytics Program                    |
+| Last Updated      | 11/31/2025                                                                |
+| Version           | 1.0 (Final Submission)                                                    |
+| Target Audience   | President of Maji Ndogo, Provincial Leaders, Field Engineers             |
+
 ## Project Overview
 
 This dashboard is a strategic monitoring tool commissioned to address the critical water access crisis within the fictional nation of Maji Ndogo. The data, though simulated for this ALX project, reflects realistic challenges faced by developing nations.
