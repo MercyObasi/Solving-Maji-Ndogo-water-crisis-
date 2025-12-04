@@ -2,7 +2,7 @@
 This document provides clear definitions, formulas, and interpretations for every KPI used in the dashboard.  It is intended to help decision-makers understand how each metric was calculated and how it should be used in planning and budgeting.
 
 ## Core Metrics Glossary
-
+---
 ## 1. Population Served KPIs
 
 ### **1.1 Total Population Served**
@@ -13,7 +13,7 @@ This document provides clear definitions, formulas, and interpretations for ever
 **Why It Matters:**  Provides the overall scale of dependency on water sources.
 
 **Dashboard Location:**  Main Dashboard → Total popuation province table
-
+---
 
 ## 2. Water Access Level KPIs
 
