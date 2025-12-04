@@ -12,7 +12,7 @@
 
 This dashboard is a strategic monitoring tool commissioned to address the critical water access crisis within the fictional nation of Maji Ndogo. The data, though simulated for this ALX project, reflects realistic challenges faced by developing nations.
 
-**Intended Audience & Use Cases:**
+**Intended Audience and Use Cases:**
 
 *   **The President/Provincial Leaders:** The high-level overview provides immediate KPIs on national water access percentage, budget variance, and overall project status for strategic decision-making.
 *   **Field Engineers:** The detailed report pages (linked via navigation) offer granular data on specific well pollution types, infrastructure requirements, and location-specific visit details to guide field operations and resource allocation.
@@ -63,3 +63,17 @@ The project_progress table gives details on the improvements planned or complete
 Overall, because the dataset contains multiple independent processes (inspections, pollution testing, crime records, improvement projects), the model naturally forms a multi-star schema. Each fact table shares some common dimensions, most importantly water_source and location, which act as the central hubs that connect the different stars.
 
 **For specifics on DAX measures and relationship cardinality, please consult the [DAX measures](../measures/DAX_measures.md) and [Data Sources and Refresh document](./data_sources_and_refresh.md).**
+
+## Insights and Interpretation
+This section should summarize the high-level findings and conclusions drawn from the dashboard:
+
+* Rural areas require significantly higher investment. Improvement costs are about 50% higher in rural communities, meaning they consume a larger share of the upgrade budget.
+
+* Shared taps remain a major pain point. Many of them exceed the 30-minute queue time threshold, indicating insufficient access. This suggests that installing additional taps will account for a substantial portion of future budgets.
+
+* Wells are costly but efficient. Although drilling wells is expensive, they can serve large numbers of people. In some locations, drilling a well may be more cost-effective than installing many shared taps.
+
+* Infrastructure failure is widespread. About 45% of people are affected by non-functional systems (broken pipes, damaged pumps, or faulty reservoirs). Places such as Amina, rural Amanzi, and parts of Akatsi and Hawassa have the highest breakdown rates.
+Repairing these systems can quickly restore water to many people and reduce queue pressure elsewhere effectively solving two problems at once.
+
+* Budget demand varies across provinces. Sokoto accounts for approximately `28%` of the total required budget, followed by Kilimani at `26%`, indicating where the heaviest investment will be needed.
