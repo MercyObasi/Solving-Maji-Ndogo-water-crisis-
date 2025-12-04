@@ -65,7 +65,7 @@ Overall, because the dataset contains multiple independent processes (inspection
 **For specifics on DAX measures and relationship cardinality, please consult the [DAX measures](../measures/DAX_measures.md) and [Data Sources and Refresh document](./data_sources_and_refresh.md).**
 
 ## Insights and Interpretation
-This section should summarize the high-level findings and conclusions drawn from the dashboard:
+This section summarizes the high-level findings and conclusions drawn from the dashboard:
 
 * Rural areas require significantly higher investment. Improvement costs are about 50% higher in rural communities, meaning they consume a larger share of the upgrade budget.
 
