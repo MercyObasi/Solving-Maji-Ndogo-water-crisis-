@@ -25,7 +25,7 @@ The primary objectives are:
 Users are encouraged to use the main dashboard page for a high-level summary and utilize the navigation buttons to drill down into specific provinces or analysis views.
 
 **For detailed metric definitions, please refer to the [KPI Definitions document](KPI_definitions.md).**
-**For help using the visuals, please see the [Visuals Explained document](visuals_explained.md).**
+**For help using the visuals, please see the [Visuals Explained document](Visuals_explained.md).**
 
 ## Data Source and Project Scope
 
