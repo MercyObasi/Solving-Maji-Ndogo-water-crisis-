@@ -23,17 +23,14 @@ This document provides clear definitions, formulas, and interpretations for ever
 
 **Formula (DAX):**  See [DAX_Measures](../measures/DAX_measures.md)
 
-**Why It Matters:**  
-Measures national progress toward reliable water supply.
+**Why It Matters:**  Measures national progress toward reliable water supply.
 
-**Dashboard Location:**  
-Main Dashboard → Population with access to basic water
+**Dashboard Location:**  Main Dashboard → Population with access to basic water
 
 ---
 
 ### **2.2 Below Basic Water Access Level**
-**Definition:**  
-Percentage of people using unsafe or unreliable water sources.
+**Definition:**  Percentage of people using unsafe or unreliable water sources.
 
 **Formula (DAX):**  See [DAX_Measures](../measures/DAX_measures.md)
 
@@ -46,8 +43,7 @@ Percentage of people using unsafe or unreliable water sources.
 ## 3. Queue Time KPIs
 
 ### **3.1 Average Queue Time**
-**Definition:**  
-The average time residents spend waiting at water sources.
+**Definition:**  The average time residents spend waiting at water sources.
 
 **Formula (DAX):**  See [DAX_Measures](../measures/DAX_measures.md)
 
@@ -58,8 +54,7 @@ The average time residents spend waiting at water sources.
 ---
 
 ### **3.2 % of Shared Taps Exceeding 30 Minutes**
-**Definition:**  
-The proportion of communal taps where average queue time is more than 30 minutes.
+**Definition:**  The proportion of communal taps where average queue time is more than 30 minutes.
 
 **Why It Matters:**  
 Identifies areas that urgently require additional taps or improved infrastructure.
@@ -71,11 +66,9 @@ Identifies areas that urgently require additional taps or improved infrastructur
 ## 4. Infrastructure Condition KPIs
 
 ### **4.1 Non-Functional Infrastructure Rate**
-**Definition:**  
-Number of water sources categorized as non-functional.
+**Definition:**  Number of water sources categorized as non-functional.
 
-**Why It Matters:**  
-Shows the extent of breakdowns causing water scarcity.
+**Why It Matters:**  Shows the extent of breakdowns causing water scarcity.
 
 **Dashboard Location:**  Main Dashboard → Number of improvements chart
 
@@ -85,34 +78,28 @@ Shows the extent of breakdowns causing water scarcity.
 ## 5. Budget and Cost KPIs
 
 ### **5.1 Total Estimated Improvement Cost**
-**Definition:**  
-Sum of all costs needed to restore or upgrade water sources.
+**Definition:**  Sum of all costs needed to restore or upgrade water sources.
 
 **Formula (DAX):**  Uses `Budgeted_improvement_cost` and `Rural_adjusted_cost`. See [DAX_Measures](../measures/DAX_measures.md) for more details.
 
-**Why It Matters:**  
-Shows the total financial requirement for system-wide improvements.
+**Why It Matters:**  Shows the total financial requirement for system-wide improvements.
 
 **Dashboard Location:**  Main Dashboard  → Improvement and Province Bookmarks
 
 ---
 
 ### **5.2 Rural vs Urban Cost Gap**
-**Definition:**  
-Comparison of improvement costs for rural vs urban areas.
+**Definition:**  Comparison of improvement costs for rural vs urban areas.
 
-**Why It Matters:**  
-Rural areas require 50% more due to higher difficulty and logistics.
+**Why It Matters:**  Rural areas require 50% more due to higher difficulty and logistics.
 
 **Dashboard Location:**   Main Dasboard
 ---
 
 ### **5.3 Provincial Budget Share**
-**Definition:**  
-Percentage of the national budget required by each province.
+**Definition:**  Percentage of the national budget required by each province.
 
-**Why It Matters:**  
-Helps leadership allocate funds fairly and strategically.
+**Why It Matters:**  Helps leadership allocate funds fairly and strategically.
 
 **Dashboard Location:**  Main Dashboard → Provincial Breakdown
 
@@ -121,11 +108,9 @@ Helps leadership allocate funds fairly and strategically.
 
 
 ## **6. Most Common Improvement Types**
-**Definition:**  
-Top improvement categories (e.g., install taps, clean wells, repair infrastructure).
+**Definition:**  Top improvement categories (e.g., install taps, clean wells, repair infrastructure).
 
-**Why It Matters:**  
-Shows where the greatest needs lie.
+**Why It Matters:**  Shows where the greatest needs lie.
 
 **Dashboard Location:**  Main Dashboard → Improvement Bookmark
 
