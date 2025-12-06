@@ -37,24 +37,25 @@ The goal is simple:
 ## 🗂️ Project Structure
 
 ├── data/
-│   └── raw/             
+│   └── raw/                       
 │
 ├── sql/
-│   ├── analysis/        
-│   └── transformations/ 
+│   ├── analysis/                  
+│   └── transformations/          
+│
 ├── powerbi/
-│   ├── datasets/        
-│   └── documentation/   
+│   ├── datasets/                  
+│   └── documentation/             
 │
 ├── measures/
-│   └── DAX_measures.md  
+│   └── DAX_measures.md            # All DAX calculations used in the dashboard
 │
 ├── reports/
-│   └── maji_ndogo_dashboard.pbix   
+│   └── maji_ndogo_dashboard.pbix  # Final Power BI project file
 │
-├── screenshots/      
+├── screenshots/                   # Images of dashboard pages (optional for README)
 │
-└── README.md
+└── README.md                      # Project documentation (this file)
 
 
 ---
@@ -65,10 +66,11 @@ The story behind the data paints a clear picture of life in Maji Ndogo:
 
 - **Many rural communities rely on broken or unreliable taps**, forcing long queues and unsafe alternatives.
 - **Water contamination remains a major challenge**, especially in areas dependent on rivers or shallow wells.
-- **Infrastructure failures are widespread** — pumps, pipes, filters, and reservoirs often need repairs.
+- **Infrastructure failures are widespread** — improvement of taps in home will reduce the population dependent on shared water or wells.
 - **Resources are unevenly distributed**, and certain provinces like *Sokoto* and *Kilimani* require significantly higher budgets.
 - **Queue times exceed 30 minutes in many locations**, signaling insufficient water points for the growing population.
-
+- **Drilling of wells** though expensive, serves more people and will also reduce the queue time largely thereby reducing the cost of installing share taps.
+  
 What stood out most is how **data can highlight both the scale of the crisis and the opportunities for meaningful, targeted improvement**.
 
 ---
