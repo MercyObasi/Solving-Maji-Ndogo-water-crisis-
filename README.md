@@ -36,26 +36,26 @@ The goal is simple:
 
 ## 🗂️ Project Structure
 
-├── data/
-│   └── raw/                       
-│
-├── sql/
-│   ├── analysis/                  
-│   └── transformations/          
-│
-├── powerbi/
-│   ├── datasets/                  
-│   └── documentation/             
-│
-├── measures/
-│   └── DAX_measures.md            # All DAX calculations used in the dashboard
-│
-├── reports/
-│   └── maji_ndogo_dashboard.pbix  # Final Power BI project file
-│
-├── screenshots/                   # Images of dashboard pages (optional for README)
-│
-└── README.md                      # Project documentation (this file)
+- ├── data/
+- │   └── raw/                       
+- │
+- ├── sql/
+- │   ├── analysis/                  
+- │   └── transformations/          
+- │
+- ├── powerbi/
+- │   ├── datasets/                  
+- │   └── documentation/             
+- │
+- ├── measures/
+- │   └── DAX_measures.md            
+- │
+- ├── reports/
+- │   └── maji_ndogo_dashboard.pbix  
+- │
+- ├── screenshots/                   
+- │
+- └── README.md                      
 
 
 ---
